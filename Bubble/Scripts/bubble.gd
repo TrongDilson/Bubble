@@ -5,15 +5,31 @@ extends CharacterBody2D
 var speed = 30
 var weight = 500
 var b = Array([], TYPE_OBJECT, "Node", null)
+@export var max_surviving_time = 25
+var remaining_time
+var current_time
+var previous_time = current_time
 
 
+func health() -> float:
+	current_time = Time.get_unix_time_from_system()
+	
+	return remaining_time / max_surviving_time
 
 func _ready() -> void:
+	remaining_time = max_surviving_time
+	previous_time = 0
 	pass
 
 func _process(delta: float) -> void:
+	previous_time = current_time
+	current_time = Time.get_unix_time_from_system()
+	if delta < remaining_time:
+		remaining_time -= delta
+	else:
+		remaining_time = 0
+	print(health())
 	# print(self.position.x, " ", self.position.y)
-	pass
 
 func addpackage(package) -> void:
 	print("wassup")
