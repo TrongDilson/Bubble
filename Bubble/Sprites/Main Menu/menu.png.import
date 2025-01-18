@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://eyfby3quc1r2"
-path="res://.godot/imported/Lông mày trái.png-ace5b5b4c5bceef19173c94853bb8627.ctex"
+uid="uid://k6qv10ms4ok3"
+path="res://.godot/imported/menu.png-6a77bf24551ed7bc5be9e5f2a0cd3420.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Lông mày trái.png"
-dest_files=["res://.godot/imported/Lông mày trái.png-ace5b5b4c5bceef19173c94853bb8627.ctex"]
+source_file="res://Sprites/Main Menu/menu.png"
+dest_files=["res://.godot/imported/menu.png-6a77bf24551ed7bc5be9e5f2a0cd3420.ctex"]
 
 [params]
 

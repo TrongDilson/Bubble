@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://mdd0w7ahqbd6"
-path="res://.godot/imported/mũi.png-30c42d8de2384a902a0b5b697584f3f0.ctex"
+uid="uid://ci434gp8jq26"
+path="res://.godot/imported/Mắt.png-105f5479b1d5cc9ca5c72d74a4ea1c64.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/mũi.png"
-dest_files=["res://.godot/imported/mũi.png-30c42d8de2384a902a0b5b697584f3f0.ctex"]
+source_file="res://Sprites/Bubble/Mắt.png"
+dest_files=["res://.godot/imported/Mắt.png-105f5479b1d5cc9ca5c72d74a4ea1c64.ctex"]
 
 [params]
 

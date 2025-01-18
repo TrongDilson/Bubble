@@ -2,16 +2,16 @@
 
 importer="texture"
 type="CompressedTexture2D"
-uid="uid://c1x5inr3p7vjb"
-path="res://.godot/imported/Lông mày phải.png-e5b7f6c4a8ecaa6a85f7ec9d7a27adef.ctex"
+uid="uid://ctk05btgrajto"
+path="res://.godot/imported/Mắt - Copy.png-1e7812353daf1bbe6b727bfecc83bbdf.ctex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://Sprites/Lông mày phải.png"
-dest_files=["res://.godot/imported/Lông mày phải.png-e5b7f6c4a8ecaa6a85f7ec9d7a27adef.ctex"]
+source_file="res://Sprites/Bubble/Mắt - Copy.png"
+dest_files=["res://.godot/imported/Mắt - Copy.png-1e7812353daf1bbe6b727bfecc83bbdf.ctex"]
 
 [params]
 
