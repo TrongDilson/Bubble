@@ -1,18 +1,25 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737207294
+::res://::1737211905
 icon.svg::CompressedTexture2D::8613064877696370899::1737167304::1737207160::1::::<><>::
-idle_state.gd::GDScript::-1::1737206878::0::1::::<>Node<>::
-::res://Properties/::1737206878
-Bubble.tscn::PackedScene::6931117544724054276::1737203785::0::1::::<><>::res://Scripts/bubble.gd<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png
-gameplay.tscn::PackedScene::1882784374049091541::1737203785::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png
-joystick.tscn::PackedScene::1508302796171528650::1737206878::0::1::::<><>::res://Scripts/joystick.gd<>uid://bfmfq7kqyeko0::::res://Sprites/Joystick/joyring.png<>uid://dsa5rce03bv03::::res://Sprites/Joystick/joyknobpng.png<>res://Scripts/joyknobpng.gd
-test_level.tscn::PackedScene::4210970545421005877::1737206878::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn
-::res://Scripts/::1737206878
-bubble.gd::GDScript::-1::1737206878::0::1::::<>CharacterBody2D<>::
+idle_state.gd::GDScript::-1::1737210490::0::1::::<>Node<>::
+::res://Properties/::1737211979
+Bubble.tscn::PackedScene::6931117544724054276::1737211979::0::1::::<><>::res://Scripts/bubble.gd<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png<>uid://mdd0w7ahqbd6::::res://Sprites/mũi.png
+gameplay.tscn::PackedScene::1882784374049091541::1737211979::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png
+joystick.tscn::PackedScene::1508302796171528650::1737211979::0::1::::<><>::res://Scripts/joystick.gd<>uid://bfmfq7kqyeko0::::res://Sprites/Joystick/joyring.png<>uid://dsa5rce03bv03::::res://Sprites/Joystick/joyknobpng.png<>res://Scripts/joyknobpng.gd
+test_level.tscn::PackedScene::4210970545421005877::1737211979::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn
+::res://Scripts/::1737210490
+bubble.gd::GDScript::-1::1737209601::0::1::::<>CharacterBody2D<>::
 joyknobpng.gd::GDScript::-1::1737167304::0::1::::<>Sprite2D<>::
 joystick.gd::GDScript::-1::1737167304::0::1::::<>Node2D<>::
-state.gd::GDScript::-1::1737206878::0::1::::State<>Node<>::
-::res://Sprites/::1737207160
+state.gd::GDScript::-1::1737210490::0::1::::State<>Node<>::
+::res://Sprites/::1737212129
+dau.jpg::CompressedTexture2D::1685421029546445431::1737193350::1737212133::0::::<><>::
+Lông mày phải.png::CompressedTexture2D::6647068496811398199::1737180281::1737212095::1::::<><>::
+Lông mày trái.png::CompressedTexture2D::330607115976031253::1737180289::1737212095::1::::<><>::
+Miệng.png::CompressedTexture2D::2307840789804712148::1737180257::1737212095::1::::<><>::
+mũi.png::CompressedTexture2D::848687257701918713::1737211758::1737211876::1::::<><>::
+Mắt - Copy.png::CompressedTexture2D::6128644754855699016::1737212019::1737212095::1::::<><>::
+Mắt.png::CompressedTexture2D::158705037500091821::1737212019::1737212095::1::::<><>::
 tileset.png::CompressedTexture2D::334374833365936714::1737167304::1737207160::1::::<><>::
 —Pngtree—blue bubble transparent_3610323.png::CompressedTexture2D::972318173466566672::1737167304::1737207160::1::::<><>::
 ::res://Sprites/Bubble/::1737207161
@@ -20,8 +27,9 @@ bongbong.png::CompressedTexture2D::999756542047446507::1737167304::1737207161::1
 ::res://Sprites/Joystick/::1737207161
 joyknobpng.png::CompressedTexture2D::8424513217242548650::1737167304::1737207161::1::::<><>::
 joyring.png::CompressedTexture2D::2762471289552747837::1737167304::1737207161::1::::<><>::
-::res://Sprites/Levels/::1737207160
+::res://Sprites/Levels/::1737211831
 license.txt::TextFile::-1::1737167304::0::1::::<><>::
+mũi.png::CompressedTexture2D::1395760844948932034::1737211831::1737211831::1::::<><>::
 preview.png::CompressedTexture2D::1641025768997704005::1737167304::1737207160::1::::<><>::
 sample.png::CompressedTexture2D::159546572364263726::1737167304::1737207160::1::::<><>::
 ::res://Sprites/Levels/PNG Cake/::1737207161
