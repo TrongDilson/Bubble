@@ -6,8 +6,6 @@ var free = true
 var weight = 100
 
 func _ready() -> void:
-	
-	
 	pass
 
 func makefree():

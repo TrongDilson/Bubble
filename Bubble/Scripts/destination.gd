@@ -8,12 +8,12 @@ func _ready() -> void:
 	var x = randf_range(0, 200)
 	var y = randf_range(0, 200)
 	
-	position = Vector2(x, y)
-	$CollisionShape2D.position = Vector2(x, y)
+	position = Vector2(x + self.owner.position.x, y + self.owner.position.y)
+	$CollisionShape2D.position = Vector2(x + self.owner.position.x, y + self.owner.position.y)
 	print(x, "  ", y)
 	pass # Replace with function body.
 
 
 # Called every frame. 'delta' is the elapsed time since the previous frame.
-func _process(delta: float) -> void:
+func _process(_delta: float) -> void:
 	pass
