@@ -11,5 +11,5 @@ script = ExtResource("1_sm8m8")
 
 [node name="package" parent="." instance=ExtResource("1_7ngor")]
 
-[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_natki")

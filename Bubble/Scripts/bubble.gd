@@ -5,8 +5,11 @@ extends CharacterBody2D
 var speed = 30
 
 func _ready() -> void:
-	
 	pass
+
+func foo(package) -> void:
+	print("wassup")
+	# need to add completepackage as child of Bubble
 
 func _physics_process(delta):
 	# Initialize direction based on joystick input

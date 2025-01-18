@@ -1,9 +1,16 @@
 extends CharacterBody2D
 
-
 const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
+var free = true
 
+func makefree():
+	free = true
+	$CollisionShape2D.set_deferred("disabled", false)
+	
+func makeunfree():
+	free = true
+	$CollisionShape2D.set_deferred("disabled", true)
 
 func _physics_process(delta: float) -> void:
 	# Add the gravity.
