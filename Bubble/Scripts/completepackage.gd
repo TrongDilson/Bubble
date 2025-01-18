@@ -6,6 +6,9 @@ var free = true
 var weight = 100
 
 func _ready() -> void:
+	var x = randf_range(-200, 200)
+	var y = randf_range(-200, 0)
+	position = Vector2(x, y)
 	pass
 
 func _process(delta: float) -> void:
