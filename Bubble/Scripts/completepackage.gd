@@ -7,6 +7,7 @@ var weight = 100
 @export var spawn_point1 = Vector2(-300, 0)
 @export var spawn_point2 = Vector2(0, 0)
 @export var spawn_point3 = Vector2(300, 0)
+@export var target_spawns = []
 
 func _ready() -> void:
 	randomize()
@@ -28,12 +29,13 @@ func makeunfree():
 	get_node("destination").set_deferred("disabled", false)
 	$destination.visible = true
 	randomize()
+	var i = randi() % target_spawns.size()
 	var x = randf_range(-200, 200)
 	var y = randf_range(-200, 0)
 	while (x > -40 and x < 40 and y < -80):
 		x = randf_range(-200, 200)
 		y = randf_range(-200, 0)
-	$destination.position = Vector2(100, -100)
+	$destination.position = target_spawns[i] - position
 	print(x, "  ", y)
 
 func _physics_process(delta: float) -> void:
