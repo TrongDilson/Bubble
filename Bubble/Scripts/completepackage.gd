@@ -4,12 +4,15 @@ const SPEED = 300.0
 const JUMP_VELOCITY = -400.0
 var free = true
 var weight = 100
+@export var spawn_point1 = Vector2(-300, 0)
+@export var spawn_point2 = Vector2(0, 0)
+@export var spawn_point3 = Vector2(300, 0)
 
 func _ready() -> void:
-	var x = randf_range(-200, 200)
-	var y = randf_range(-200, 0)
-	position = Vector2(x, y)
-	pass
+	randomize()
+	var spawn_points = [spawn_point1, spawn_point2, spawn_point3]
+	var x = randi() % 3
+	position = spawn_points[x]
 
 func _process(delta: float) -> void:
 	pass
