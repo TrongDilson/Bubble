@@ -1,9 +1,0 @@
-Sprite2D
-Button
-CollisionShape2D
-Area2D
-AnimationPlayer
-AnimatedSprite2D
-Node2D
-AnimationTree
-TileMap
