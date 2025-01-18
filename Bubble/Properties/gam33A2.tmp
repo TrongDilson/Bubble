@@ -1,0 +1,16 @@
+[gd_scene load_steps=4 format=3 uid="uid://13bgigy8ffw4"]
+
+[ext_resource type="PackedScene" uid="uid://vqvr53586ek5" path="res://Properties/joystick.tscn" id="1_rg4r1"]
+[ext_resource type="PackedScene" uid="uid://c50qq1jfp2piq" path="res://Properties/Bubble.tscn" id="2_lcpvh"]
+[ext_resource type="PackedScene" uid="uid://eff58a4rfhq3" path="res://Properties/completepackage.tscn" id="3_ept6i"]
+
+[node name="Gameplay" type="Node2D"]
+
+[node name="Camera2D" type="Camera2D" parent="."]
+
+[node name="joystick" parent="Camera2D" instance=ExtResource("1_rg4r1")]
+position = Vector2(-555, 272)
+
+[node name="Bubble" parent="." instance=ExtResource("2_lcpvh")]
+
+[node name="completepackage" parent="Bubble" instance=ExtResource("3_ept6i")]

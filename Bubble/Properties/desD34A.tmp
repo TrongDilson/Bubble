@@ -1,0 +1,17 @@
+[gd_scene load_steps=4 format=3 uid="uid://bt2xgn3gc4b6e"]
+
+[ext_resource type="Script" path="res://Scripts/destination.gd" id="1_jsp5s"]
+[ext_resource type="Texture2D" uid="uid://sr3ueym8icc7" path="res://Sprites/target.png" id="1_lmux6"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dsw68"]
+
+[node name="destination" type="Area2D"]
+script = ExtResource("1_jsp5s")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_lmux6")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dsw68")
+
+[connection signal="body_entered" from="." to="." method="_on_body_entered"]
