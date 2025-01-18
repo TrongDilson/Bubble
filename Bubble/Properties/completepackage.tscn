@@ -1,0 +1,15 @@
+[gd_scene load_steps=4 format=3 uid="uid://dtsn2wy6mpd80"]
+
+[ext_resource type="PackedScene" uid="uid://c0asoyho6fwgv" path="res://Properties/package.tscn" id="1_7ngor"]
+[ext_resource type="Script" path="res://Scripts/completepackage.gd" id="1_sm8m8"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_natki"]
+size = Vector2(32, 32)
+
+[node name="completepackage" type="CharacterBody2D"]
+script = ExtResource("1_sm8m8")
+
+[node name="package" parent="." instance=ExtResource("1_7ngor")]
+
+[node name="CollisionShape2D2" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_natki")

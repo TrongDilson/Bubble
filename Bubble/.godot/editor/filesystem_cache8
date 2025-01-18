@@ -1,28 +1,33 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737167985
+::res://::1737186315
 icon.svg::CompressedTexture2D::8613064877696370899::1737166445::1737166565::1::::<><>::
-::res://Properties/::1737167928
-Bubble.tscn::PackedScene::6931117544724054276::1737166445::0::1::::<><>::uid://n3865vl8vns7::::res://Sprites/—Pngtree—blue bubble transparent_3610323.png<>res://Scripts/bubble.gd
-gameplay.tscn::PackedScene::1882784374049091541::1737167917::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn
+::res://Properties/::1737186281
+Bubble.tscn::PackedScene::6931117544724054276::1737186055::0::1::::<><>::uid://n3865vl8vns7::::res://Sprites/—Pngtree—blue bubble transparent_3610323.png<>res://Scripts/bubble.gd
+completepackage.tscn::PackedScene::8530847611130528159::1737186048::0::1::::<><>::uid://c0asoyho6fwgv::::res://Properties/package.tscn<>res://Scripts/completepackage.gd
+gameplay.tscn::PackedScene::1882784374049091541::1737186048::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn
 joystick.tscn::PackedScene::1508302796171528650::1737166445::0::1::::<><>::res://Scripts/joystick.gd<>uid://bfmfq7kqyeko0::::res://Sprites/Joystick/joyring.png<>uid://dsa5rce03bv03::::res://Sprites/Joystick/joyknobpng.png<>res://Scripts/joyknobpng.gd
-test_level.tscn::PackedScene::4210970545421005877::1737167928::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn
-::res://Scripts/::1737167768
-bubble.gd::GDScript::-1::1737166445::0::1::::<>CharacterBody2D<>::
-joyknobpng.gd::GDScript::-1::1737166445::0::1::::<>Sprite2D<>::
+package.tscn::PackedScene::6528681637373255505::1737186048::0::1::::<><>::res://Scripts/package.gd<>uid://83dnmredpi3j::::res://Sprites/somerandompackage.png
+test_level.tscn::PackedScene::4210970545421005877::1737186048::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn<>uid://dtsn2wy6mpd80::::res://Properties/completepackage.tscn
+::res://Scripts/::1737186281
+bubble.gd::GDScript::-1::1737186047::0::1::::<>CharacterBody2D<>::
+completepackage.gd::GDScript::-1::1737185947::0::1::::<>CharacterBody2D<>::
+joyknobpng.gd::GDScript::-1::1737172933::0::1::::<>Sprite2D<>::
 joystick.gd::GDScript::-1::1737166445::0::1::::<>Node2D<>::
-::res://Sprites/::1737167768
+package.gd::GDScript::-1::1737185884::0::1::::<>Area2D<>::
+::res://Sprites/::1737186281
+somerandompackage.png::CompressedTexture2D::2374240440196032713::1737171217::1737171223::1::::<><>::
 tileset.png::CompressedTexture2D::334374833365936714::1737166445::1737166565::1::::<><>::
 —Pngtree—blue bubble transparent_3610323.png::CompressedTexture2D::972318173466566672::1737166445::1737166565::1::::<><>::
-::res://Sprites/Bubble/::1737167768
+::res://Sprites/Bubble/::1737186281
 bongbong.png::CompressedTexture2D::999756542047446507::1737166445::1737166568::1::::<><>::
-::res://Sprites/Joystick/::1737167768
+::res://Sprites/Joystick/::1737186281
 joyknobpng.png::CompressedTexture2D::8424513217242548650::1737166445::1737166570::1::::<><>::
 joyring.png::CompressedTexture2D::2762471289552747837::1737166445::1737166570::1::::<><>::
-::res://Sprites/Levels/::1737167768
+::res://Sprites/Levels/::1737186283
 license.txt::TextFile::-1::1737166445::0::1::::<><>::
 preview.png::CompressedTexture2D::1641025768997704005::1737166445::1737166565::1::::<><>::
 sample.png::CompressedTexture2D::159546572364263726::1737166445::1737166565::1::::<><>::
-::res://Sprites/Levels/PNG Cake/::1737167768
+::res://Sprites/Levels/PNG Cake/::1737186281
 cakeHalf.png::CompressedTexture2D::5394280432715576933::1737166445::1737166567::1::::<><>::
 cakeHalfAlt.png::CompressedTexture2D::6450432169332167644::1737166445::1737166567::1::::<><>::
 cakeHalfAltLeft.png::CompressedTexture2D::1554333703406530470::1737166446::1737166567::1::::<><>::
@@ -63,10 +68,10 @@ slice37_37.png::CompressedTexture2D::7720523103309883287::1737166447::1737166567
 slice38_38.png::CompressedTexture2D::2127475180488261811::1737166447::1737166567::1::::<><>::
 slice39_39.png::CompressedTexture2D::5043313246282712727::1737166447::1737166567::1::::<><>::
 slice40_40.png::CompressedTexture2D::3823853688502442562::1737166447::1737166567::1::::<><>::
-::res://Sprites/Levels/PNG Cake/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Cake/Spritesheet/::1737186281
 sheet.png::CompressedTexture2D::7046569658108884742::1737166447::1737166567::1::::<><>::
 sheet.xml::TextFile::-1::1737166447::0::1::::<><>::
-::res://Sprites/Levels/PNG Castle/::1737167768
+::res://Sprites/Levels/PNG Castle/::1737186281
 castleHalf.png::CompressedTexture2D::4258515739397705396::1737166447::1737166567::1::::<><>::
 castleHalfLeft.png::CompressedTexture2D::4549390625500425464::1737166447::1737166567::1::::<><>::
 castleHalfMid.png::CompressedTexture2D::5546370624435908858::1737166447::1737166567::1::::<><>::
@@ -103,10 +108,10 @@ slice33_33.png::CompressedTexture2D::6072185937102261560::1737166449::1737166567
 slice34_34.png::CompressedTexture2D::759884589106968139::1737166449::1737166567::1::::<><>::
 slice35_35.png::CompressedTexture2D::4061769296464764697::1737166449::1737166567::1::::<><>::
 slice36_36.png::CompressedTexture2D::4653564963364930359::1737166449::1737166567::1::::<><>::
-::res://Sprites/Levels/PNG Castle/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Castle/Spritesheet/::1737186281
 sheet.png::CompressedTexture2D::5153426748126986841::1737166449::1737166567::1::::<><>::
 sheet.xml::TextFile::-1::1737166449::0::1::::<><>::
-::res://Sprites/Levels/PNG Choco/::1737167768
+::res://Sprites/Levels/PNG Choco/::1737186282
 chocoHalf.png::CompressedTexture2D::8739503388687387138::1737166449::1737166567::1::::<><>::
 chocoHalfAlt.png::CompressedTexture2D::1185913370102483876::1737166449::1737166567::1::::<><>::
 chocoHalfAltLeft.png::CompressedTexture2D::3104181616334439132::1737166449::1737166567::1::::<><>::
@@ -147,10 +152,10 @@ slice37_37.png::CompressedTexture2D::4756080555599119236::1737166451::1737166570
 slice38_38.png::CompressedTexture2D::164665285170118207::1737166451::1737166570::1::::<><>::
 slice39_39.png::CompressedTexture2D::8845780802427508976::1737166451::1737166571::1::::<><>::
 slice40_40.png::CompressedTexture2D::7784622496692633504::1737166451::1737166571::1::::<><>::
-::res://Sprites/Levels/PNG Choco/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Choco/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::3937337537469471864::1737166451::1737166567::1::::<><>::
 sheet.xml::TextFile::-1::1737166451::0::1::::<><>::
-::res://Sprites/Levels/PNG Dirt/::1737167768
+::res://Sprites/Levels/PNG Dirt/::1737186282
 dirtHalf.png::CompressedTexture2D::5840421067340733678::1737166451::1737166571::1::::<><>::
 dirtHalfLeft.png::CompressedTexture2D::6044687319502305518::1737166451::1737166571::1::::<><>::
 dirtHalfMid.png::CompressedTexture2D::6302132356938623703::1737166451::1737166571::1::::<><>::
@@ -187,10 +192,10 @@ slice33_33.png::CompressedTexture2D::236809146101253080::1737166452::1737166568:
 slice34_34.png::CompressedTexture2D::4089053533096488571::1737166452::1737166568::1::::<><>::
 slice35_35.png::CompressedTexture2D::1617788420700707133::1737166453::1737166568::1::::<><>::
 slice36_36.png::CompressedTexture2D::3520129667047476073::1737166453::1737166568::1::::<><>::
-::res://Sprites/Levels/PNG Dirt/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Dirt/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::1806137502216289635::1737166453::1737166571::1::::<><>::
 sheet.xml::TextFile::-1::1737166453::0::1::::<><>::
-::res://Sprites/Levels/PNG Grass/::1737167768
+::res://Sprites/Levels/PNG Grass/::1737186282
 grassHalf.png::CompressedTexture2D::3245126481535299886::1737166453::1737166568::1::::<><>::
 grassHalfLeft.png::CompressedTexture2D::2491784142561313968::1737166453::1737166568::1::::<><>::
 grassHalfMid.png::CompressedTexture2D::8237023173822404909::1737166453::1737166568::1::::<><>::
@@ -227,10 +232,10 @@ slice33_33.png::CompressedTexture2D::3375660256008150576::1737166454::1737166564
 slice34_34.png::CompressedTexture2D::8076932963933988482::1737166454::1737166564::1::::<><>::
 slice35_35.png::CompressedTexture2D::1775129560636561577::1737166455::1737166564::1::::<><>::
 slice36_36.png::CompressedTexture2D::5813675366439936535::1737166455::1737166564::1::::<><>::
-::res://Sprites/Levels/PNG Grass/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Grass/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::2629160231404478699::1737166455::1737166568::1::::<><>::
 sheet.xml::TextFile::-1::1737166455::0::1::::<><>::
-::res://Sprites/Levels/PNG Metal/::1737167768
+::res://Sprites/Levels/PNG Metal/::1737186282
 metalHalf.png::CompressedTexture2D::4873185309771263964::1737166455::1737166564::1::::<><>::
 metalHalfLeft.png::CompressedTexture2D::6018845833568640892::1737166455::1737166564::1::::<><>::
 metalHalfMid.png::CompressedTexture2D::8776592137042231816::1737166455::1737166564::1::::<><>::
@@ -262,10 +267,10 @@ slice28_28.png::CompressedTexture2D::8517666955258468616::1737166456::1737166564
 slice29_29.png::CompressedTexture2D::8206551112027302101::1737166456::1737166564::1::::<><>::
 slice30_30.png::CompressedTexture2D::8704404373121887710::1737166456::1737166564::1::::<><>::
 slice31_31.png::CompressedTexture2D::3219004964852480845::1737166456::1737166564::1::::<><>::
-::res://Sprites/Levels/PNG Metal/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Metal/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::5903735059622251536::1737166456::1737166564::1::::<><>::
 sheet.xml::TextFile::-1::1737166457::0::1::::<><>::
-::res://Sprites/Levels/PNG Purple/::1737167768
+::res://Sprites/Levels/PNG Purple/::1737186282
 slice01_01.png::CompressedTexture2D::6381643543214044827::1737166457::1737166564::1::::<><>::
 slice02_02.png::CompressedTexture2D::3279335539807139798::1737166457::1737166564::1::::<><>::
 slice03_03.png::CompressedTexture2D::3145169616816439606::1737166457::1737166564::1::::<><>::
@@ -302,10 +307,10 @@ strip_purple_01.png::CompressedTexture2D::3869865242466241399::1737166458::17371
 strip_purple_02.png::CompressedTexture2D::6930992756643863749::1737166458::1737166563::1::::<><>::
 strip_purple_03.png::CompressedTexture2D::6136995953415199169::1737166458::1737166564::1::::<><>::
 strip_purple_04.png::CompressedTexture2D::3598351799860404376::1737166459::1737166564::1::::<><>::
-::res://Sprites/Levels/PNG Purple/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Purple/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::1045398841943604237::1737166459::1737166564::1::::<><>::
 sheet.xml::TextFile::-1::1737166459::0::1::::<><>::
-::res://Sprites/Levels/PNG Sand/::1737167768
+::res://Sprites/Levels/PNG Sand/::1737186282
 sandHalf.png::CompressedTexture2D::4502831873206739268::1737166459::1737166564::1::::<><>::
 sandHalfLeft.png::CompressedTexture2D::1525265788256627907::1737166459::1737166564::1::::<><>::
 sandHalfMid.png::CompressedTexture2D::4805774527025159907::1737166459::1737166564::1::::<><>::
@@ -342,10 +347,10 @@ slice33_33.png::CompressedTexture2D::7311792755110362999::1737166461::1737166565
 slice34_34.png::CompressedTexture2D::641387054660388271::1737166461::1737166565::1::::<><>::
 slice35_35.png::CompressedTexture2D::7690881987629385379::1737166461::1737166565::1::::<><>::
 slice36_36.png::CompressedTexture2D::3067820122375431921::1737166461::1737166565::1::::<><>::
-::res://Sprites/Levels/PNG Sand/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Sand/Spritesheet/::1737186282
 sheet.png::CompressedTexture2D::7407377919734449263::1737166461::1737166564::1::::<><>::
 sheet.xml::TextFile::-1::1737166461::0::1::::<><>::
-::res://Sprites/Levels/PNG Snow/::1737167768
+::res://Sprites/Levels/PNG Snow/::1737186283
 slice01_01.png::CompressedTexture2D::7716492767695414080::1737166461::1737166565::1::::<><>::
 slice02_02.png::CompressedTexture2D::1592542701019776404::1737166461::1737166565::1::::<><>::
 slice03_03.png::CompressedTexture2D::974788129918130924::1737166461::1737166565::1::::<><>::
@@ -382,10 +387,10 @@ snowHalf.png::CompressedTexture2D::1969166334655171980::1737166463::1737166565::
 snowHalfLeft.png::CompressedTexture2D::6833100250902548180::1737166463::1737166565::1::::<><>::
 snowHalfMid.png::CompressedTexture2D::6082982760010714270::1737166463::1737166565::1::::<><>::
 snowHalfRight.png::CompressedTexture2D::2871148894703503592::1737166463::1737166565::1::::<><>::
-::res://Sprites/Levels/PNG Snow/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Snow/Spritesheet/::1737186283
 sheet.png::CompressedTexture2D::3482371853985404579::1737166463::1737166566::1::::<><>::
 sheet.xml::TextFile::-1::1737166463::0::1::::<><>::
-::res://Sprites/Levels/PNG Tundra/::1737167768
+::res://Sprites/Levels/PNG Tundra/::1737186283
 slice01_01.png::CompressedTexture2D::5849673793475270502::1737166463::1737166565::1::::<><>::
 slice02_02.png::CompressedTexture2D::3301078542501015768::1737166463::1737166565::1::::<><>::
 slice03_03.png::CompressedTexture2D::8117894412997447723::1737166463::1737166565::1::::<><>::
@@ -422,9 +427,9 @@ tundraHalf.png::CompressedTexture2D::2556910881792128859::1737166465::1737166565
 tundraHalfLeft.png::CompressedTexture2D::3655199850379890667::1737166465::1737166565::1::::<><>::
 tundraHalfMid.png::CompressedTexture2D::1805396882161469156::1737166465::1737166565::1::::<><>::
 tundraHalfRight.png::CompressedTexture2D::1393563773569209977::1737166465::1737166565::1::::<><>::
-::res://Sprites/Levels/PNG Tundra/Spritesheet/::1737167768
+::res://Sprites/Levels/PNG Tundra/Spritesheet/::1737186283
 sheet.png::CompressedTexture2D::1241624217619005396::1737166465::1737166565::1::::<><>::
 sheet.xml::TextFile::-1::1737166465::0::1::::<><>::
-::res://Sprites/Levels/Vector/::1737167768
+::res://Sprites/Levels/Vector/::1737186283
 part1.svg::CompressedTexture2D::7449642356681917085::1737166465::1737166566::1::::<><>::
 part2.svg::CompressedTexture2D::4847966490805966860::1737166465::1737166566::1::::<><>::

@@ -24,6 +24,10 @@ window/size/viewport_height=720
 
 project/assembly_name="BubbleGame"
 
+[global_group]
+
+Bubble=""
+
 [layer_names]
 
 2d_physics/layer_1="World"

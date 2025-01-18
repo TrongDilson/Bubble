@@ -1,7 +1,8 @@
-[gd_scene load_steps=5 format=3 uid="uid://b083cmrvi4asj"]
+[gd_scene load_steps=6 format=3 uid="uid://b083cmrvi4asj"]
 
 [ext_resource type="Texture2D" uid="uid://bdpt5c6tf2sgp" path="res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png" id="1_u4ske"]
 [ext_resource type="PackedScene" uid="uid://13bgigy8ffw4" path="res://Properties/gameplay.tscn" id="2_4rbam"]
+[ext_resource type="PackedScene" uid="uid://dtsn2wy6mpd80" path="res://Properties/completepackage.tscn" id="4_nipcc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6fy0m"]
 texture = ExtResource("1_u4ske")
@@ -93,4 +94,7 @@ format = 2
 layer_0/tile_data = PackedInt32Array(327667, 262144, 4, 327668, 262144, 3, 327669, 262144, 3, 327670, 262144, 3, 327674, 262144, 3, 327675, 262144, 3, 327676, 262144, 3, 327677, 262144, 3, 327678, 262144, 3, 327679, 262144, 3, 327671, 262144, 3, 327672, 262144, 3, 327673, 262144, 3, 262144, 262144, 3, 262146, 262144, 3, 262147, 262144, 3, 262145, 262144, 3, 262148, 262144, 3, 262149, 262144, 3, 262151, 262144, 3, 262152, 262144, 3, 262150, 262144, 3, 262154, 262144, 3, 262153, 262144, 3, 262155, 262144, 3, 262156, 262144, 3, 262157, 262144, 3)
 
 [node name="Gameplay" parent="." instance=ExtResource("2_4rbam")]
-z_as_relative = false
+z_index = 100
+
+[node name="completepackage" parent="." instance=ExtResource("4_nipcc")]
+position = Vector2(0, 151)
