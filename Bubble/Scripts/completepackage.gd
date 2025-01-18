@@ -8,6 +8,9 @@ var weight = 100
 func _ready() -> void:
 	pass
 
+func _process(delta: float) -> void:
+	pass
+
 func makefree():
 	free = true
 	$CollisionShape2D.set_deferred("disabled", false)
@@ -15,8 +18,15 @@ func makefree():
 func makeunfree():
 	free = false
 	$CollisionShape2D.set_deferred("disabled", true)
-	$destination.set_deferred("disabled", false)
+	
+	get_node("destination").set_deferred("disabled", false)
 	$destination.visible = true
+	randomize()
+	var x = randf_range(0, 200)
+	var y = randf_range(-200, 0)
+	
+	$destination.position = Vector2(x, y)
+	print(x, "  ", y)
 
 func _physics_process(delta: float) -> void:
 	if !free:

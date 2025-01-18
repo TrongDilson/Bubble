@@ -6,7 +6,13 @@ var speed = 30
 var weight = 500
 var b = Array([], TYPE_OBJECT, "Node", null)
 
+
+
 func _ready() -> void:
+	pass
+
+func _process(delta: float) -> void:
+	# print(self.position.x, " ", self.position.y)
 	pass
 
 func addpackage(package) -> void:
@@ -16,8 +22,6 @@ func addpackage(package) -> void:
 		weight += package.weight
 		var t = package.get_node("package/Sprite2D")
 		t.visible = not t.visible
-	else:
-		removepackage(package)
 	print(weight)
 	# need to add completepackage as child of Bubble
 	
@@ -27,6 +31,7 @@ func removepackage(package):
 	b.erase(package)
 	weight -= package.weight
 	package.queue_free()
+	print(weight)
 
 func _physics_process(delta):
 	# Initialize direction based on joystick input

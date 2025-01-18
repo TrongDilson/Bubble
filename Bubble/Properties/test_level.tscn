@@ -97,4 +97,4 @@ layer_0/tile_data = PackedInt32Array(327671, 262144, 2, 327672, 262144, 2, 32767
 z_index = 100
 
 [node name="completepackage" parent="." instance=ExtResource("4_nipcc")]
-position = Vector2(0, 151)
+position = Vector2(0, 264)

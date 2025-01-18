@@ -1,23 +1,26 @@
 ea4bc82a6ad023ab7ee23ee620429895
-::res://::1737187657
+::res://::1737211503
 icon.svg::CompressedTexture2D::8613064877696370899::1737187463::1737187657::1::::<><>::
-::res://Properties/::1737208536
-Bubble.tscn::PackedScene::6931117544724054276::1737208536::0::1::::<><>::uid://n3865vl8vns7::::res://Sprites/—Pngtree—blue bubble transparent_3610323.png<>res://Scripts/bubble.gd
-completepackage.tscn::PackedScene::8530847611130528159::1737208536::0::1::::<><>::uid://c0asoyho6fwgv::::res://Properties/package.tscn<>res://Scripts/completepackage.gd<>res://Scripts/destination.gd
-gameplay.tscn::PackedScene::1882784374049091541::1737208536::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn
-joystick.tscn::PackedScene::1508302796171528650::1737187463::0::1::::<><>::res://Scripts/joystick.gd<>uid://bfmfq7kqyeko0::::res://Sprites/Joystick/joyring.png<>uid://dsa5rce03bv03::::res://Sprites/Joystick/joyknobpng.png<>res://Scripts/joyknobpng.gd
-package.tscn::PackedScene::6528681637373255505::1737208536::0::1::::<><>::res://Scripts/package.gd<>uid://83dnmredpi3j::::res://Sprites/somerandompackage.png
-test_level.tscn::PackedScene::4210970545421005877::1737208536::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn<>uid://dtsn2wy6mpd80::::res://Properties/completepackage.tscn
-::res://Scripts/::1737208536
-bubble.gd::GDScript::-1::1737207432::0::1::::<>CharacterBody2D<>::
-completepackage.gd::GDScript::-1::1737208353::0::1::::<>CharacterBody2D<>::
+idle_state.gd::GDScript::-1::1737210755::0::1::::<>Node<>::
+::res://Properties/::1737210755
+Bubble.tscn::PackedScene::6931117544724054276::1737210755::0::1::::<><>::res://Scripts/bubble.gd<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png
+completepackage.tscn::PackedScene::8530847611130528159::1737210640::0::1::::<><>::uid://c0asoyho6fwgv::::res://Properties/package.tscn<>res://Scripts/completepackage.gd<>uid://bt2xgn3gc4b6e::::res://Properties/destination.tscn
+destination.tscn::PackedScene::3777154844106891118::1737210640::0::1::::<><>::res://Scripts/destination.gd<>uid://sr3ueym8icc7::::res://Sprites/target.png
+gameplay.tscn::PackedScene::1882784374049091541::1737210755::0::1::::<><>::uid://vqvr53586ek5::::res://Properties/joystick.tscn<>uid://c50qq1jfp2piq::::res://Properties/Bubble.tscn<>uid://oij3x4x2uof0::::res://Sprites/Bubble/bongbong.png
+joystick.tscn::PackedScene::1508302796171528650::1737210755::0::1::::<><>::res://Scripts/joystick.gd<>uid://bfmfq7kqyeko0::::res://Sprites/Joystick/joyring.png<>uid://dsa5rce03bv03::::res://Sprites/Joystick/joyknobpng.png<>res://Scripts/joyknobpng.gd
+package.tscn::PackedScene::6528681637373255505::1737210640::0::1::::<><>::res://Scripts/package.gd<>uid://83dnmredpi3j::::res://Sprites/somerandompackage.png
+test_level.tscn::PackedScene::4210970545421005877::1737210755::0::1::::<><>::uid://bdpt5c6tf2sgp::::res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png<>uid://13bgigy8ffw4::::res://Properties/gameplay.tscn<>uid://dtsn2wy6mpd80::::res://Properties/completepackage.tscn
+::res://Scripts/::1737210755
+bubble.gd::GDScript::-1::1737210640::0::1::::<>CharacterBody2D<>::
+completepackage.gd::GDScript::-1::1737210640::0::1::::<>CharacterBody2D<>::
+destination.gd::GDScript::-1::1737210640::0::1::::<>Area2D<>::
 joyknobpng.gd::GDScript::-1::1737187463::0::1::::<>Sprite2D<>::
 joystick.gd::GDScript::-1::1737187463::0::1::::<>Node2D<>::
-package.gd::GDScript::-1::1737206243::0::1::::<>Area2D<>::
-destination.gd::GDScript::-1::1737208536::0::1::::<>Area2D<>::
-::res://Sprites/::1737208627
-somerandompackage.png::CompressedTexture2D::2374240440196032713::1737187521::1737187657::1::::<><>::
-target.png::CompressedTexture2D::1300229646737505596::1737208585::1737208630::1::::<><>::
+package.gd::GDScript::-1::1737210640::0::1::::<>Area2D<>::
+state.gd::GDScript::-1::1737210755::0::1::::State<>Node<>::
+::res://Sprites/::1737210640
+somerandompackage.png::CompressedTexture2D::2374240440196032713::1737210640::1737211508::1::::<><>::
+target.png::CompressedTexture2D::1300229646737505596::1737210640::1737211508::1::::<><>::
 tileset.png::CompressedTexture2D::334374833365936714::1737187463::1737187657::1::::<><>::
 —Pngtree—blue bubble transparent_3610323.png::CompressedTexture2D::972318173466566672::1737187463::1737187657::1::::<><>::
 ::res://Sprites/Bubble/::1737187659

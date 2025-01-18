@@ -1,5 +1,6 @@
 extends Area2D
 
+var checked = false
 
 # Called when the node enters the scene tree for the first time.
 func _ready() -> void:
@@ -12,6 +13,9 @@ func _process(_delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
+	if checked:
+		return
+	checked = true
 	print("lmao")
 	self.owner.makeunfree()
 	body.addpackage(self.owner)
