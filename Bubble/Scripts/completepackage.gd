@@ -8,6 +8,9 @@ var weight = 100
 @export var spawn_point2 = Vector2(0, 0)
 @export var spawn_point3 = Vector2(300, 0)
 @export var target_spawns = []
+@export var max_score = 100
+@export var time_delay_to_decay = 10
+var remaining_time = time_delay_to_decay
 
 func _ready() -> void:
 	randomize()
@@ -16,7 +19,16 @@ func _ready() -> void:
 	position = spawn_points[x]
 
 func _process(delta: float) -> void:
-	pass
+	if delta < remaining_time:
+		remaining_time -= delta
+	else:
+		remaining_time = 0	
+	print(score())
+
+func score() -> int:
+	if remaining_time == 0:
+		return 1
+	return ceil(max_score * (remaining_time / time_delay_to_decay))
 
 func makefree():
 	free = true

@@ -4,6 +4,7 @@ extends CharacterBody2D
 
 var speed = 30
 var weight = 500
+var totalscore = 0
 var b = Array([], TYPE_OBJECT, "Node", null)
 @export var max_surviving_time = 25
 var remaining_time
@@ -28,7 +29,6 @@ func _process(delta: float) -> void:
 		remaining_time -= delta
 	else:
 		remaining_time = 0
-	print(health())
 	# print(self.position.x, " ", self.position.y)
 
 func addpackage(package) -> void:
@@ -46,6 +46,7 @@ func removepackage(package):
 		return
 	b.erase(package)
 	weight -= package.weight
+	totalscore += package.score()
 	package.queue_free()
 	print(weight)
 
