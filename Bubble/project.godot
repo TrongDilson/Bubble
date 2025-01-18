@@ -28,6 +28,7 @@ project/assembly_name="BubbleGame"
 
 2d_physics/layer_1="World"
 2d_physics/layer_2="Player"
+2d_physics/size/viewport_height=720
 
 [rendering]
 
