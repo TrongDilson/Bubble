@@ -18,7 +18,7 @@ animations = [{
 radius = 38.0132
 
 [node name="Bubble" type="CharacterBody2D"]
-collision_layer = 2
+collision_layer = 6
 script = ExtResource("1_ukkk1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]

@@ -1,7 +1,8 @@
-[gd_scene load_steps=4 format=3 uid="uid://dtsn2wy6mpd80"]
+[gd_scene load_steps=5 format=3 uid="uid://dtsn2wy6mpd80"]
 
 [ext_resource type="PackedScene" uid="uid://c0asoyho6fwgv" path="res://Properties/package.tscn" id="1_7ngor"]
 [ext_resource type="Script" path="res://Scripts/completepackage.gd" id="1_sm8m8"]
+[ext_resource type="PackedScene" uid="uid://bt2xgn3gc4b6e" path="res://Properties/destination.tscn" id="3_3fkq6"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_natki"]
 size = Vector2(32, 32)
@@ -13,3 +14,5 @@ script = ExtResource("1_sm8m8")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
 shape = SubResource("RectangleShape2D_natki")
+
+[node name="destination" parent="." instance=ExtResource("3_3fkq6")]
