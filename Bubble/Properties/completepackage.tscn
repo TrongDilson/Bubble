@@ -16,4 +16,3 @@ script = ExtResource("1_sm8m8")
 shape = SubResource("RectangleShape2D_natki")
 
 [node name="destination" parent="." instance=ExtResource("3_3fkq6")]
-collision_mask = 2

@@ -6,6 +6,7 @@
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_dsw68"]
 
 [node name="destination" type="Area2D"]
+collision_mask = 10
 script = ExtResource("1_jsp5s")
 
 [node name="Sprite2D" type="Sprite2D" parent="."]

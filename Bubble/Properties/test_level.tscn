@@ -82,7 +82,7 @@ texture_region_size = Vector2i(70, 70)
 
 [sub_resource type="TileSet" id="TileSet_3ew64"]
 tile_size = Vector2i(70, 70)
-physics_layer_0/collision_layer = 1
+physics_layer_0/collision_layer = 9
 sources/0 = SubResource("TileSetAtlasSource_6fy0m")
 
 [node name="test_level" type="Node2D"]
@@ -91,7 +91,7 @@ sources/0 = SubResource("TileSetAtlasSource_6fy0m")
 z_index = 1
 tile_set = SubResource("TileSet_3ew64")
 format = 2
-layer_0/tile_data = PackedInt32Array(327671, 262144, 2, 327672, 262144, 2, 327673, 262144, 2, 327674, 262144, 2, 327675, 262144, 2, 327676, 262144, 2, 327677, 262144, 2, 327678, 262144, 2, 327679, 262144, 2, 262144, 262144, 2, 262145, 262144, 2, 262146, 262144, 2, 262147, 262144, 2, 262148, 262144, 2, 262149, 262144, 2, 262150, 262144, 2, 262151, 262144, 2, 262152, 262144, 2)
+layer_0/tile_data = PackedInt32Array(327671, 262144, 2, 327672, 262144, 2, 327673, 262144, 2, 327674, 262144, 2, 327675, 262144, 2, 327676, 262144, 2, 327677, 262144, 2, 327678, 262144, 2, 327679, 262144, 2, 262144, 262144, 2, 262145, 262144, 2, 262146, 262144, 2, 262147, 262144, 2, 262148, 262144, 2, 262149, 262144, 2, 262150, 262144, 2, 262151, 262144, 2, 262152, 262144, 2, 131073, 262144, 1)
 
 [node name="Gameplay" parent="." instance=ExtResource("2_4rbam")]
 z_index = 100

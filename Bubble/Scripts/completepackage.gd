@@ -22,10 +22,12 @@ func makeunfree():
 	get_node("destination").set_deferred("disabled", false)
 	$destination.visible = true
 	randomize()
-	var x = randf_range(0, 200)
+	var x = randf_range(-200, 200)
 	var y = randf_range(-200, 0)
-	
-	$destination.position = Vector2(x, y)
+	while (x > -40 and x < 40 and y < -80):
+		x = randf_range(-200, 200)
+		y = randf_range(-200, 0)
+	$destination.position = Vector2(100, -100)
 	print(x, "  ", y)
 
 func _physics_process(delta: float) -> void:
