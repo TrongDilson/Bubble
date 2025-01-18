@@ -6,6 +6,7 @@
 [ext_resource type="Script" path="res://Scripts/joyknobpng.gd" id="4_wihmn"]
 
 [node name="joystick" type="Node2D"]
+z_index = 1
 script = ExtResource("1_eecm0")
 
 [node name="Joyring" type="Sprite2D" parent="."]
