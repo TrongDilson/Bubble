@@ -295,43 +295,12 @@ collision_layer = 6
 script = ExtResource("1_ukkk1")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="."]
-scale = Vector2(0.5, 0.5)
+z_index = 7
+position = Vector2(-3.99999, 3.5)
+scale = Vector2(0.655172, 0.639785)
 sprite_frames = SubResource("SpriteFrames_3wk2y")
 animation = &"Idle"
-autoplay = "Idle"
-frame_progress = 0.882071
+frame_progress = 0.228878
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2(1, -1)
 shape = SubResource("CircleShape2D_5lqpf")
-
-[node name="Sprite2D" type="Sprite2D" parent="."]
-z_index = 3
-position = Vector2(9, -29)
-scale = Vector2(0.170183, 0.21)
-texture = ExtResource("3_yy4gc")
-
-[node name="Sprite2D2" type="Sprite2D" parent="."]
-z_index = 2
-position = Vector2(30, -6)
-texture = ExtResource("4_lvcri")
-
-[node name="LôngMàyTrái" type="Sprite2D" parent="."]
-z_index = 2
-position = Vector2(-6, -3)
-texture = ExtResource("5_4ta6d")
-
-[node name="Sprite2D3" type="Sprite2D" parent="."]
-position = Vector2(26.975, 9.5)
-scale = Vector2(0.124074, 0.1375)
-texture = ExtResource("6_pl2yi")
-
-[node name="Sprite2D4" type="Sprite2D" parent="."]
-position = Vector2(0.999998, 10)
-scale = Vector2(0.124074, 0.1375)
-texture = ExtResource("6_pl2yi")
-
-[node name="Sprite2D5" type="Sprite2D" parent="."]
-position = Vector2(17, 24)
-scale = Vector2(0.124074, 0.1375)
-texture = ExtResource("7_t3rfs")
