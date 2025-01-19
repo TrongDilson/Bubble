@@ -8,21 +8,32 @@ var weight = 100
 @export var spawn_point2 = Vector2(0, 0)
 @export var spawn_point3 = Vector2(300, 0)
 @export var target_spawns = []
+@export var max_score = 100
+@export var time_delay_to_decay = 10
+var remaining_time = time_delay_to_decay
 
 func _ready() -> void:
 	randomize()
 	var spawn_points = [spawn_point1, spawn_point2, spawn_point3]
 	var x = randi() % 3
 	position = spawn_points[x]
-	print(x)
 	$destination.position = Vector2(0, 0)
 	$package.set_deferred("disabled", false)
 	$package.checked = false
 	$destination.visible = false
 	$package.visible = true
+	remaining_time = time_delay_to_decay
 
 func _process(delta: float) -> void:
-	pass
+	if delta < remaining_time:
+		remaining_time -= delta
+	else:
+		remaining_time = 0	
+
+func score() -> int:
+	if remaining_time == 0:
+		return 1
+	return ceil(max_score * (remaining_time / time_delay_to_decay))
 
 func makefree():
 	free = true
@@ -45,7 +56,6 @@ func makeunfree():
 		x = randf_range(-200, 200)
 		y = randf_range(-200, 0)
 	$destination.position = target_spawns[i] - position
-	print(x, "  ", y)
 
 func _physics_process(delta: float) -> void:
 	if !free:

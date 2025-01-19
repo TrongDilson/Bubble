@@ -11,6 +11,20 @@ offset = Vector2(1, 1)
 
 [node name="joystick" parent="Camera2D" instance=ExtResource("1_rg4r1")]
 z_index = 0
-position = Vector2(-547, 242)
+position = Vector2(-550, 265)
 
 [node name="Bubble" parent="." instance=ExtResource("2_lcpvh")]
+
+[node name="health" type="RichTextLabel" parent="."]
+offset_left = 401.0
+offset_top = -294.0
+offset_right = 603.0
+offset_bottom = -184.0
+fit_content = true
+
+[node name="score" type="RichTextLabel" parent="."]
+offset_left = -573.0
+offset_top = -306.0
+offset_right = -157.0
+offset_bottom = -223.0
+fit_content = true

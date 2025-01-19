@@ -5,18 +5,36 @@ extends CharacterBody2D
 var speed = 30
 var weight = 500
 var b = Array([], TYPE_OBJECT, "Node", null)
+@export var max_surviving_time = 25
+var remaining_time
+var current_time
+var previous_time = current_time
+var totalscore = 0
 
-
+func health() -> float:
+	current_time = Time.get_unix_time_from_system()
+	
+	return remaining_time / max_surviving_time
 
 func _ready() -> void:
+	remaining_time = max_surviving_time
+	previous_time = 0
 	pass
 
 func _process(delta: float) -> void:
+	previous_time = current_time
+	current_time = Time.get_unix_time_from_system()
+	if delta < remaining_time:
+		remaining_time -= delta
+	else:
+		remaining_time = 0
+		queue_free()
+	var t = self.owner
+	t.get_node("score").text = "score: " + str(totalscore) 
+	t.get_node("health").text = "health: " + str(ceil(health() * 100))
 	# print(self.position.x, " ", self.position.y)
-	pass
 
 func addpackage(package) -> void:
-	print("wassup")
 	if b.count(package) == 0:
 		b.append(package)
 		weight += package.weight
@@ -29,10 +47,15 @@ func removepackage(package):
 		return
 	b.erase(package)
 	weight -= package.weight
+	totalscore += package.score()
+	if remaining_time + 5 > max_surviving_time:
+		remaining_time = max_surviving_time
+	else:
+		remaining_time += 5
 	package.makefree()
 	var t = package.get_node("package/Sprite2D")
 	t.visible = not t.visible
-	print(weight)
+	
 
 func _physics_process(delta):
 	# Initialize direction based on joystick input

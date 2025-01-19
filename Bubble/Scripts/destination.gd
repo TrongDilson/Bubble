@@ -15,8 +15,6 @@ func _process(_delta: float) -> void:
 
 
 func _on_body_entered(body: Node2D) -> void:
-	print("found")
-	print(body.z_index)
 	if body.z_index == 1 or body.z_index == 4:
 		randomize()
 		var i = randi() % owner.target_spawns.size()

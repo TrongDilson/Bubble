@@ -17,6 +17,5 @@ func _on_body_entered(body: Node2D) -> void:
 		return
 	visible = false
 	checked = true
-	print("lmao")
 	self.owner.makeunfree()
 	body.addpackage(self.owner)

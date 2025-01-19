@@ -9,7 +9,7 @@ size = Vector2(32, 32)
 
 [node name="completepackage" type="CharacterBody2D"]
 script = ExtResource("1_sm8m8")
-target_spawns = [Vector2(-125, 25), Vector2(-125, 75), Vector2(-125, 125), Vector2(-125, 175), Vector2(-125, 225), Vector2(-125, 275), Vector2(-125, 325), Vector2(-125, 375), Vector2(-125, 425), Vector2(-125, 475), Vector2(125, 25), Vector2(125, 75), Vector2(125, 125), Vector2(125, 175), Vector2(125, 225), Vector2(125, 275), Vector2(125, 325), Vector2(125, 375), Vector2(125, 425), Vector2(125, 475)]
+target_spawns = [Vector2(-125, 25), Vector2(-125, 75), Vector2(-125, 125), Vector2(-125, 175), Vector2(125, 25), Vector2(125, 75), Vector2(125, 125), Vector2(125, 175)]
 
 [node name="package" parent="." instance=ExtResource("1_7ngor")]
 
