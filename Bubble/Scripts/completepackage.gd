@@ -14,6 +14,12 @@ func _ready() -> void:
 	var spawn_points = [spawn_point1, spawn_point2, spawn_point3]
 	var x = randi() % 3
 	position = spawn_points[x]
+	print(x)
+	$destination.position = Vector2(0, 0)
+	$package.set_deferred("disabled", false)
+	$package.checked = false
+	$destination.visible = false
+	$package.visible = true
 
 func _process(delta: float) -> void:
 	pass
@@ -21,11 +27,14 @@ func _process(delta: float) -> void:
 func makefree():
 	free = true
 	$CollisionShape2D.set_deferred("disabled", false)
+	$destination.visible = false
+	$package.visible = true
+	_ready()
 	
 func makeunfree():
 	free = false
 	$CollisionShape2D.set_deferred("disabled", true)
-	
+	$package.visible = false
 	get_node("destination").set_deferred("disabled", false)
 	$destination.visible = true
 	randomize()

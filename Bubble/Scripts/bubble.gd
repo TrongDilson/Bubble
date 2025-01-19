@@ -22,7 +22,6 @@ func addpackage(package) -> void:
 		weight += package.weight
 		var t = package.get_node("package/Sprite2D")
 		t.visible = not t.visible
-	print(weight)
 	# need to add completepackage as child of Bubble
 	
 func removepackage(package):
@@ -30,7 +29,9 @@ func removepackage(package):
 		return
 	b.erase(package)
 	weight -= package.weight
-	package.queue_free()
+	package.makefree()
+	var t = package.get_node("package/Sprite2D")
+	t.visible = not t.visible
 	print(weight)
 
 func _physics_process(delta):
