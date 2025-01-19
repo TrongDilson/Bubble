@@ -2,7 +2,6 @@
 
 [ext_resource type="Texture2D" uid="uid://bdpt5c6tf2sgp" path="res://Sprites/Levels/PNG Grass/Spritesheet/sheet.png" id="1_u4ske"]
 [ext_resource type="PackedScene" uid="uid://13bgigy8ffw4" path="res://Properties/gameplay.tscn" id="2_4rbam"]
-[ext_resource type="PackedScene" uid="uid://dtsn2wy6mpd80" path="res://Properties/completepackage.tscn" id="4_nipcc"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_6fy0m"]
 texture = ExtResource("1_u4ske")
@@ -94,7 +93,4 @@ format = 2
 layer_0/tile_data = PackedInt32Array(327671, 262144, 2, 327672, 262144, 2, 327673, 262144, 2, 327674, 262144, 2, 327675, 262144, 2, 327676, 262144, 2, 327677, 262144, 2, 327678, 262144, 2, 327679, 262144, 2, 262144, 262144, 2, 262145, 262144, 2, 262146, 262144, 2, 262147, 262144, 2, 262148, 262144, 2, 262149, 262144, 2, 262150, 262144, 2, 262151, 262144, 2, 262152, 262144, 2, 131073, 262144, 1)
 
 [node name="Gameplay" parent="." instance=ExtResource("2_4rbam")]
-z_index = 100
-
-[node name="completepackage" parent="." instance=ExtResource("4_nipcc")]
-position = Vector2(0, 264)
+z_as_relative = false
