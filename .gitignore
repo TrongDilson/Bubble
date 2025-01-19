@@ -1,0 +1,4 @@
+# Godot 4+ specific ignores
+/android/
+Bubble/.godot
+Bubble/project.godot
