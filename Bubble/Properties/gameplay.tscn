@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://c50qq1jfp2piq" path="res://Properties/Bubble.tscn" id="2_lcpvh"]
 
 [node name="Gameplay" type="Node2D"]
+z_index = 5
 
 [node name="Camera2D" type="Camera2D" parent="."]
 offset = Vector2(1, 1)
